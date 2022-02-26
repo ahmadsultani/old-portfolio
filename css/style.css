@@ -25,8 +25,13 @@ hr {
 }
 
 .navbar-dark .navbar-brand {
+    margin-left: 10px;
     font-weight: 700;
     color: white;
+}
+
+.navbar-dark .navbar-nav {
+    margin-right: 10px;
 }
 
 .navbar-dark .navbar-nav .navbar-item{
