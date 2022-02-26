@@ -7,8 +7,12 @@
     background-color: rgba(186, 212, 235, 0.6);
 }
 
-.about hr {
+hr {
     width: 200px;
     border-top: 4px solid rgba(0, 0, 0, 0.7);
     margin-top: 0px;
+}
+
+section {
+    min-height: 500px;
 }
