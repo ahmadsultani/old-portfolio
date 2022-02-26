@@ -20,14 +20,35 @@ hr {
     margin-top: 0px;
 }
 
-.jumbotron img {
+.navbar-dark {
+    background-color: #0695da;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: 700;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .navbar-item{
+    font-weight: 700;
+    color: white;
+}
+
+.navbar-dark .navbar-nav .navbar-item:hover{
+    color: #0695da;
+}
+
+.img-circle {
     width: 200px;
+    margin-top: 20px;
     border: 6px solid white;
 }
 
 .jumbotron {
     background-color: #0695da;
     color: white;
+    max-height: 500px;
+    margin-bottom: 200px;
 }
 
 .jumbotron h3 {
@@ -38,7 +59,7 @@ hr {
     position: relative;
     height: 300px;
     width: 100%;
-    margin-top: -80px;
+    margin-top: 0px;
 }
 
 .about img {
