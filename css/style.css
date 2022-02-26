@@ -1,5 +1,6 @@
 html {
     position: relative;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -34,12 +35,23 @@ hr {
     margin-right: 10px;
 }
 
-.navbar-dark .navbar-nav .navbar-item{
+.navbar-toggler-icon {
+    background-color: white;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.navbar-dark .navbar-nav .nav-link{
     font-weight: 700;
     color: white;
 }
 
-.navbar-dark .navbar-nav .navbar-item:hover{
+.navbar-dark .navbar-nav .nav-link:hover{
     color: #0695da;
 }
 
