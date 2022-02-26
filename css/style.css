@@ -26,8 +26,19 @@ hr {
 }
 
 .jumbotron {
-    background-color: #0b5a8eea;
+    background-color: #0695da;
     color: white;
+}
+
+.jumbotron h3 {
+    margin-top: 0;
+}
+
+.bgext {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin-top: -80px;
 }
 
 .about img {
