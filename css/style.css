@@ -6,3 +6,9 @@
 .jumbotron {
     background-color: rgba(186, 212, 235, 0.6);
 }
+
+.about hr {
+    width: 200px;
+    border-top: 4px solid rgba(0, 0, 0, 0.7);
+    margin-top: 0px;
+}
