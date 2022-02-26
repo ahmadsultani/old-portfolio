@@ -14,5 +14,19 @@ hr {
 }
 
 section {
-    min-height: 500px;
+    min-height: 600px;
+}
+
+.thumbnail {
+    border-radius: 16px;
+}
+
+.thumbnail img {
+    border-radius: 16px;
+    padding: 10px 10px 0px 10px;
+}
+
+.thumbnail a {
+    border-radius: 12px;
+    margin-right: 10px;
 }
