@@ -2,3 +2,7 @@
     height: 200px;
     border: 5px solid white;
 }
+
+.jumbotron {
+    background-color: rgba(186, 212, 235, 0.6);
+}
