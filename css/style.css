@@ -1,3 +1,5 @@
+*{user-select: none;}
+
 html {
     position: relative;
     scroll-behavior: smooth;
