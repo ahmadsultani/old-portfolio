@@ -6,3 +6,8 @@ $('.navbar-item').on('click', function(e) {
     });
     e.preventDefault();
 });
+
+let img = document.querySelector('.img-container');
+img.ondragstart = () => {
+    return false
+}
