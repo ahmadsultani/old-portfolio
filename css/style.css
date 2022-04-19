@@ -1,5 +1,6 @@
 *{user-select: none;}
 
+
 html {
     position: relative;
     scroll-behavior: smooth;
@@ -46,6 +47,10 @@ hr {
     color: #0695da;
 }
 
+.img {
+    pointer-events: none;
+}
+
 .img-circle {
     width: 200px;
     margin-top: 20px;
@@ -64,14 +69,16 @@ hr {
 }
 
 .bgext {
-    position: relative;
-    height: 300px;
-    width: 100%;
+    position: absolute;
+    height: 20vw;
+    width: 100vw;
     margin-top: 0px;
 }
 
-.about img {
-    max-width: 90vh;
+.img-about {
+    position: relative;
+    height: 38vw;
+    max-height: 350px;
     margin-bottom: 30px;
     border-radius: 16px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
