@@ -7,5 +7,5 @@ $('.navbar-item').on('click', function(e) {
     e.preventDefault();
 });
 
-let img = document.querySelector('.img-container');
+const img = document.querySelector('.img');
 img.setAttribute('draggable',false)
