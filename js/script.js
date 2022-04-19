@@ -8,6 +8,4 @@ $('.navbar-item').on('click', function(e) {
 });
 
 let img = document.querySelector('.img-container');
-img.ondragstart = () => {
-    return false
-}
+img.setAttribute('draggable',false)
