@@ -9,3 +9,11 @@ $('.navbar-item').on('click', function(e) {
 
 const img = document.querySelector('.img');
 img.setAttribute('draggable',false)
+
+//parallax
+$(halo).scroll(function() {
+    var wScroll = $(this).scrollTop();
+    $('.jumbotron ').css({
+        'transform': 'translate(0px, ' + wScroll + 'px)'
+    });
+})
