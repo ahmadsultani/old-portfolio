@@ -1,130 +1,143 @@
-*{user-select: none;}
-
+* {
+  user-select: none;
+}
 
 html {
-    position: relative;
-    scroll-behavior: smooth;
+  position: relative;
+  scroll-behavior: smooth;
 }
 
 body {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
-section {
-    min-height: 700px;
+.pre-space {
+  margin-top: 100px;
 }
 
 .container {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 hr {
-    width: 200px;
-    border-top: 4px solid rgba(0, 0, 0, 0.7);
-    margin-top: 0px;
+  width: 200px;
+  border-top: 4px solid rgba(0, 0, 0, 0.7);
+  margin-top: 0px;
 }
 
 .navbar-dark {
-    background-color: #0695da;
+  background-color: #0695da;
 }
 
 .navbar-dark .navbar-brand {
-    margin-left: 10px;
-    font-weight: 700;
-    color: white;
+  margin-left: 10px;
+  font-weight: 700;
+  color: white;
 }
 
 .navbar-dark .navbar-nav {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-.navbar-dark .navbar-nav .nav-link{
-    font-weight: 700;
-    color: white;
+.navbar-dark .navbar-nav .nav-link {
+  font-weight: 700;
+  color: white;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover{
-    color: #0695da;
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #0695da;
 }
 
 .img {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 .img-circle {
-    width: 200px;
-    margin-top: 20px;
-    border: 6px solid white;
+  width: 13em;
+  margin-top: 20px;
+  border: 6px solid white;
 }
 
 .jumbotron {
-    background-color: #0695da;
-    color: white;
-    max-height: 500px;
-    margin-bottom: 200px;
+  background-color: #0695da;
+  color: white;
+  max-height: 600px;
+  margin-bottom: 200px;
 }
 
 .jumbotron h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .bgext {
-    position: absolute;
-    height: 20vw;
-    width: 100%;
-    margin-top: 0px;
+  position: absolute;
+  height: calc(10vw + 25vh);
+  width: 100%;
+  margin-top: 0px;
 }
 
 .img-about {
-    position: relative;
-    height: 38vw;
-    max-height: 350px;
-    margin-bottom: 30px;
-    border-radius: 16px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
-    border: 5px solid white;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 38vw;
+  max-height: 350px;
+  margin-bottom: 30px;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  border: 5px solid white;
 }
 
 .thumbnail {
-    border-radius: 16px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  min-height: 400px;
+  padding: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .thumbnail img {
-    border-radius: 16px;
-    padding: 10px 10px 0px 10px;
+  border-radius: 16px;
+  padding: 10px 10px 0px 10px;
+  height: 50%;
 }
 
 .thumbnail a {
-    border-radius: 12px;
-    margin-right: 10px;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.caption {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 footer {
-    position: absolute;
-    font-weight: 600;
-    background-color: #0695da;
-    width: 100%;
-    height: 100px;
-    bottom: 0;
-    color: white;
-    padding-top: 40px;
-    justify-content: center;
+  position: absolute;
+  font-weight: 600;
+  background-color: #0695da;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  color: white;
+  padding-top: 40px;
+  justify-content: center;
 }
 
 footer p i {
-    color:crimson;
+  color: crimson;
 }
 
 footer a {
-    color: white;
+  color: white;
 }
 
 footer a:hover {
-    color: white;
+  color: white;
 }
 
 .btn {
-    background-color: #0695da;
-    font-weight: 600;
+  background-color: #0695da;
+  font-weight: 600;
 }
